@@ -225,6 +225,14 @@ As bibliotecas externas precisam estar instaladas no ambiente de desenvolvimento
 ## Contexto acadêmico
 Projeto desenvolvido no contexto acadêmico da FIAP, pela matéria de Edge Computing e Computer Systems, com foco na aplicação prática de conceitos de programação, eletrônica e sistemas embarcados.
 
+## Diferenciais Mais Relevantes
+- Feedback visual imediato: LEDs verde, amarelo e vermelho indicam se o ambiente está adequado, em atenção ou em estado crítico.
+- Alertas sonoros: o buzzer reforça a identificação de situações críticas.
+- Interface intuitiva: o LCD apresenta as informações e orienta a navegação pelos menus usando botões físicos.
+- Personalização: permite escolher o idioma (português ou inglês) e a unidade de temperatura (Celsius ou Fahrenheit).
+- Facilidade de compreensão: mensagens diretas, como “Ambiente muito escuro”, ajudam o usuário a entender o problema e agir rapidamente.
+Resumo: transformar dados de sensores em informações claras e acionáveis, reduzindo o esforço necessário para interpretar as condições ambientais e tornando o sistema mais fácil de usar.
+
 ## Simulação no WOKWI
 Caso queira testar a lógica antes de montar o circuito físico:
 1. Acesse o [projeto no WOKWI](https://wokwi.com/projects/477688493467889665).
