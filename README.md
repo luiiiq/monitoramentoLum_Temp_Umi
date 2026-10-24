@@ -16,15 +16,15 @@ O projeto também possui comunicação serial, permitindo transmitir os dados am
 - Mariana do Nascimento
 
 ## Objetivo do projeto
-• Monitorar continuamente a temperatura, a umidade e a luminosidade do ambiente.
-• Identificar condições ambientais adequadas, de atenção e críticas.
-• Facilitar a visualização dos dados por meio de um display LCD.
-• Sinalizar situações de alerta com LEDs e buzzer.
-• Registrar a data e a hora das ocorrências do estado vermelho no Monitor Serial.
-• Identificar os fatores responsáveis por cada ocorrência do estado vermelho.
-• Armazenar configurações e registros ambientais na EEPROM.
-• Oferecer opções de idioma, unidade de temperatura, país e fuso horário.
-• Permitir a consulta de dados e a comunicação com uma interface externa.
+- Monitorar continuamente a temperatura, a umidade e a luminosidade do ambiente.
+- Identificar condições ambientais adequadas, de atenção e críticas.
+- Facilitar a visualização dos dados por meio de um display LCD.
+- Sinalizar situações de alerta com LEDs e buzzer.
+- Registrar a data e a hora das ocorrências do estado vermelho no Monitor Serial.
+- Identificar os fatores responsáveis por cada ocorrência do estado vermelho.
+- Armazenar configurações e registros ambientais na EEPROM.
+- Oferecer opções de idioma, unidade de temperatura, país e fuso horário.
+- Permitir a consulta de dados e a comunicação com uma interface externa.
 
 ## Funcionalidades
 - **Monitoramento de temperatura:** realiza leituras por meio do sensor DHT22.
@@ -242,6 +242,9 @@ Caso queira testar a lógica antes de montar o circuito físico:
 5. Observe as informações exibidas no LCD, incluindo as medições dos sensores e as opções disponíveis no menu.
 6. Altere os valores de luminosidade, temperatura e umidade na simulação para observar como os LEDs indicadores reagem às diferentes condições ambientais.
 7. Utilize os botões do circuito para navegar pelo menu e testar as opções implementadas, sendo necessário no Botão do Menu (Digital 3) pressionar por alguns segundos até aparecer o Menu, o Botão de Confirmar (Digital 4) escolhe a opção e o Botão de Sair (Digital 5) sai do Menu.
+
+## Site no GitHub Pages
+Confira o [Site](https://luiiiq.github.io/monitoramentoLum_Temp_Umi/).
 
 *. Imagem: [Monitoramento Ambiental](./src/assets/img/imgWokwi.png)
 
