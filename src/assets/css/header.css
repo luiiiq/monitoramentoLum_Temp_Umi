@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    align-items: center;
+    padding: 25px 55px;
+    animation: headerAnima 0.4s ease-in-out;
+}
+
+@keyframes headerAnima {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.header nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.header nav ul a {
+    font-size: 20px;
+    color: #c9c6c6;
+    transition: 0.4s ease;
+}
+
+.header nav ul a:hover {
+    color: #f0ecec;
+}
+
+.logo img {
+    width: 60px;
+}

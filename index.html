@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinheria Agnello</title>
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./src/assets/img/logo.svg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a data-pt="PAINEL" data-en="PANEL" href="./index.html">PAINEL</a></li>
+                <li><a data-pt="COLABORADORES" data-en="CONTRIBUTORS" href="./src/assets/pages/colaboradores.html">COLABORADORES</a></li>
+                <li><a data-pt="EQUIPAMENTOS" data-en="EQUIPMENTS" href="./src/assets/pages/equipamentos.html">EQUIPAMENTOS</a></li>
+            </ul>
+        </nav>
+        <div>
+            <img src="./src/assets/img/detalhe.svg" alt="Detalhe Header">
+        </div>
+    </header>
+    <button id="conectar" data-pt="CONECTAR" data-en="CONNECT">CONECTAR</button>
+    <div class="paisEscolhido">
+        <img src="./src/assets/img/bandeira-do-brasil.png" alt="Banndeira do Brasil">
+        <img src="./src/assets/img/estados-unidos-da-america.png" alt="Banndeira dos EUA">
+    </div>
+    <div class="condicaoVerde">
+        <div>
+            <div>
+                <div class="fechar"><span>X</span></div>
+                <h4>Única condição para acionar o <span>Led Verde</span></h4>
+                <div class="condicaoParagrafo abrirCondicao">
+                    <p>Temperatura entre 10°C - 16°C, Umidade entre 57% - 76% e Luminosidade entre 0% - 25%</p>
+                    <p>Qualquer valor fora dessas faixas aciona o <span class="casoVermelho">Vermelho(caso um for alto)</span> ou o <span class="casoAmarelo">Amarelo</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="container">
+        <section>
+            <div class="painelPrincipal">
+                <div class="painelIntro">
+                    <div><img id="verde" src="./src/assets/img/lampadaVerde.svg" alt=""></div>
+                    <div><img id="vermelho" src="./src/assets/img/lampadaVermelho.svg" alt=""></div>
+                    <div><img id="amarelo" src="./src/assets/img/lampada.svg" alt=""></div>
+                </div>
+                <div class="status">Status: <span></span></div>
+            </div>
+        </section>
+        <section class="painelLateral">
+            <div class="monitoramentos">
+                <div class="leds painelLateral-item">
+                    <h3 data-pt="Led Conectado" data-en="Connected LED">Led Conectado</h3>
+                    <img id="verde" src="./src/assets/img/led-verde.png" alt="Led Verde">
+                    <img id="vermelho" src="./src/assets/img/led-vermelho.png" alt="Led vermelho">
+                    <img id="amarelo" src="./src/assets/img/led-amarelo.png" alt="Led amarelo">
+                    <span class="corLed"></span>
+                </div>
+                <div class="temperatura painelLateral-item">
+                    <h3 data-pt="Temperatura" data-en="Temperature">Temperatura</h3>
+                    <div class="temperatura-conteudo">
+                        <span></span>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="umidade painelLateral-item">
+                    <h3 data-pt="Umidade" data-en="Humidity">Umidade</h3>
+                    <div class="umidade-conteudo">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="painelLateral-item">
+                    <h3 data-pt="Luminosidade" data-en="Brightness">Luminosidade</h3>
+                    <h2><span class="porcentagem"></span></h2>
+                </div>
+                <div class="data painelLateral-item">
+                    <h3 data-pt="Data" data-en="Date">Data</h3>
+                    <div class="data-conteudo">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="horas painelLateral-item">
+                    <h3 data-pt="Horário" data-en="Time">Horário</h3>
+                    <div class="horario-conteudo">
+                        <span></span>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="detalheFooter">
+            <img src="./src/assets/img/detalhe.svg" alt="Detalhe Footer">
+        </div>
+        <p data-pt="Todos os direitos reservados" data-en="All rights reserved">
+            Todos os direitos reservados
+        </p>
+        <h4>CALM TECH Team ©</h4>
+    </footer>
+    <script src="./src/assets/js/script.js"></script>
+</body>
+</html>

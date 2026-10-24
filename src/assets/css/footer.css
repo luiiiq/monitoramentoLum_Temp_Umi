@@ -1,0 +1,19 @@
+footer {
+    background: #222222;
+    padding: 2rem;
+    color: #f0ecec;
+}
+
+footer p {
+    text-align: center;
+    font-size: 21px;
+}
+
+footer h4 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.detalheFooter img {
+    transform: rotate(-90deg);
+}
