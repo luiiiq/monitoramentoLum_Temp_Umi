@@ -246,6 +246,9 @@ Caso queira testar a lógica antes de montar o circuito físico:
 ## Site no GitHub Pages
 Confira o [Site](https://luiiiq.github.io/monitoramentoLum_Temp_Umi/).
 
+## Vídeo do Projeto
+Confira o [Vídeo do nosso Projeto](https://youtu.be/X0g9FC6sJlg).
+
 *. Imagem: [Monitoramento Ambiental](./src/assets/img/imgWokwi.png)
 
 ---
