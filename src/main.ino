@@ -92,7 +92,7 @@ bool buzzerTocando = false;
 bool jaTocouNoAmarelo = false;
 
 #define LOG_OPTION 1 // Opção para ativar a leitura do log
-#define SERIAL_OPTION 0 // Opção de comunicação serial: 0 para desligado, 1 para ligado
+#define SERIAL_OPTION 1 // Opção de comunicação serial: 0 para desligado, 1 para ligado
 
 // País selecionado: 0 = Brasil, 1 = Estados Unidos
 int paisSelecionado = 0;
@@ -103,7 +103,7 @@ int diferencaHoras = 0;
 
 // Define o pino e o modelo do sensor de temperatura e umidade.
 #define DHTPIN 2
-#define DHTTYPE DHT22 // Lab é DHT11
+#define DHTTYPE DHT11 // Lab é DHT11
 
 // Cria o objeto que permite realizar leituras do sensor DHT22.
 DHT dht(DHTPIN, DHTTYPE);
